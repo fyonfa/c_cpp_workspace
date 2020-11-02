@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*c": "c",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "limits": "cpp",
+        "list": "cpp",
+        "iomanip": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "sstream": "cpp",
+        "regex": "cpp",
+        "map": "cpp"
+    }
+}
