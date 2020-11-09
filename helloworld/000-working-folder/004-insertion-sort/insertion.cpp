@@ -6,11 +6,28 @@ using namespace std;
 
 int main()
 {
-    int myArray[9] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+
+    cout << "Insert how many numbers will be inserted: " << endl;
+    int arraySize = 0;
+    cin >> arraySize;
+    int myArray[arraySize] = {0};
+    //int myArray[9] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
     int temp = 0;
     int index = 0;
+    int count = 0;
 
     int len = sizeof(myArray) / sizeof(myArray[0]);
+
+    cout << "Insert" << arraySize << "numbers please: " << endl;
+    int k = 0;
+
+    while (count < arraySize)
+    {
+
+        cin >> myArray[k];
+        k++;
+        count++;
+    }
 
     for (int i = 0; i < len; i++)
     {
