@@ -1,4 +1,4 @@
-//myBuble: it is a sort program created by me, just for fun anc practice.
+//myBuble: it is a sort program created by me, just for fun and practice.
 //time that i took to develop: 1 hour.(coffee included.)
 #include <iostream>
 
