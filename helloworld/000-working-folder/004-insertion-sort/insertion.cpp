@@ -29,21 +29,18 @@ int main()
         count++;
     }
 
-    for (int i = 0; i < len; i++)
+    for (int i = 1; i < len; i++)
     {
         temp = myArray[i];
+        int j = i - 1;
 
-        for (int j = i - 1; j >= 0; j--)
+        while (myArray[j] > temp)
         {
 
-            if (temp < myArray[j])
-            {
-                index = j;
-                myArray[j + 1] = myArray[j];
-            }
+            myArray[j + 1] = myArray[j];
+            j--;
         }
-        myArray[index] = temp;
-        index = 0;
+        myArray[j + 1] = temp;
     }
 
     //display array
